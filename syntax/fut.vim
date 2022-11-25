@@ -6,7 +6,7 @@ syn match float "\v(([0-9]+\.[0-9]+|[0-9]+f(32|64))(f(32|64))?)"
 syn match float "\v([eE][\+\-]?[0-9]+)"
 
 syn keyword conditional if then else
-syn keyword Statement loop with entry for while do in local type val
+syn keyword Statement loop with def entry fn for while do in local type val
 syn keyword keyword concat zip unzip unsafe
 syn keyword FutharkBinding let entry nextgroup=FutIdentifier skipwhite skipempty
 syn keyword PreProc module open import nextgroup=FutIdentifier skipwhite skipempty
